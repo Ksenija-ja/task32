@@ -3,11 +3,18 @@ public class Main {
 
         BmiService service = new BmiService();
 
-        double height_meter = 1.87;
-        int weight_kg = 98;
-        int index = service.calculate(height_meter, weight_kg);
+        System.out.println();
+        System.out.println("1.62 / 55");
+        System.out.println(service.calculate(1.62,55 ));
+
+        System.out.println();
+        System.out.println("1.78 / 90");
+        System.out.println(service.calculate(1.78,90 ));
+
+        System.out.println();
+        System.out.println("1.55 / 45");
+        System.out.println(service.calculate(1.55,45 ));
 
 
-        System.out.println(index);
     }
 }
